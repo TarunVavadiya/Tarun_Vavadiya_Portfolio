@@ -1,12 +1,11 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineFacebook
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import logo from "../../assets/sLogo.png";
 
 const Footer = () => {
     let date = new Date();
@@ -18,14 +17,13 @@ const Footer = () => {
             <span>Dedicated to creating impactful solutions!</span>
           </Col>
           <Col md="4" className="footer-copywright">
-            <span>Copyright © {year}</span>
-            <img src={logo} className="img-fluid logo" alt="brand" />
+            <span className="yellow">Copyright © {year} Tarun Vavadiya</span>
           </Col>
           <Col md="4" className="footer-body">
             <ul className="footer-icons">
               <li className="social-icons">
                 <a
-                  href="https://github.com/19sajib"
+                  href="https://github.com/TarunVavadiya"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -36,18 +34,18 @@ const Footer = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/19sajib"
+                  href="https://www.facebook.com/tarun.vavadiya.9"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
                   aria-label="twitter"
                 >
-                  <AiOutlineTwitter />
+                  <AiOutlineFacebook />
                 </a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/19sajib/"
+                  href="https://www.linkedin.com/in/tarun-vavadiya-748b68243/"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -58,7 +56,7 @@ const Footer = () => {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/19sajib"
+                  href="https://www.instagram.com/t_d_patel_2002"
                   style={{ color: "white" }}
                   target="_blank" 
                   rel="noopener noreferrer"

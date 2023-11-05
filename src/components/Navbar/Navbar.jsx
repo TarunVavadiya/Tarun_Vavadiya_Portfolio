@@ -1,20 +1,18 @@
 import React, { useState } from "react";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../../assets/sLogo.png";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 // import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 // import { CgGitFork } from "react-icons/cg";
 import {
+  AiOutlineContacts,
+  AiOutlineFundProjectionScreen,
   // AiFillStar,
   AiOutlineHome,
-  AiOutlineFundProjectionScreen,
-  AiOutlineContacts
 } from "react-icons/ai";
-import { GiSkills } from "react-icons/gi"
 import { CgFileDocument } from "react-icons/cg";
-
+import { GiSkills } from "react-icons/gi";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -39,7 +37,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <h1 style={{ marginTop: "3%" }} className="yellow">Tarun Vavadiya</h1>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

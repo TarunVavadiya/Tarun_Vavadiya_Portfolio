@@ -14,7 +14,7 @@ const Home = () => {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Hey Folks, Thanks for dropping by!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
@@ -22,7 +22,7 @@ const Home = () => {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Md Abu Bakkar Siddiqe Sajib</strong>
+                <strong className="main-name"> Tarun Vavadiya</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>

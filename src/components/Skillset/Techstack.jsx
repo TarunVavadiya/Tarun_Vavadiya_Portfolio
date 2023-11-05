@@ -1,18 +1,19 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
+  DiDjango,
+  DiJava,
   DiJavascript1,
-  DiReact,
   DiNodejs,
-  DiGit,
+  DiPostgresql,
+  DiPython,
+  DiReact
 } from "react-icons/di";
 import {
+  SiHtml5,
   SiMaterialui,
-  SiGraphql,
-  SiSolidity,
-  SiRedux,
   SiMongodb,
-  SiHtml5
+  SiRedux
 } from "react-icons/si";
 
 const Techstack = () => {
@@ -37,16 +38,19 @@ const Techstack = () => {
         <SiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGraphql />
+        <DiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <DiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMaterialui />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDjango />
       </Col>
     </Row>
   );

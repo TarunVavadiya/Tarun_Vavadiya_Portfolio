@@ -1,12 +1,12 @@
-import React from 'react'
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react';
+import { Col, Container, Row } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineFacebook
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import './Social.css'
+import './Social.css';
 
 const Social = () => {
   return (
@@ -22,7 +22,7 @@ const Social = () => {
                 <ul className="contact-social-links">
                   <li className="contact-icons">
                     <a
-                      href="https://github.com/19sajib"
+                      href="https://github.com/TarunVavadiya"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
@@ -32,17 +32,17 @@ const Social = () => {
                   </li>
                   <li className="contact-icons">
                     <a
-                      href="https://twitter.com/19sajib"
+                      href="https://www.facebook.com/tarun.vavadiya.9"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
                     >
-                      <AiOutlineTwitter />
+                      <AiOutlineFacebook />
                     </a>
                   </li>
                   <li className="contact-icons">
                     <a
-                      href="https://www.linkedin.com/in/19sajib/"
+                      href="https://www.linkedin.com/in/tarun-vavadiya-748b68243/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color  contact-social-icons"
@@ -52,7 +52,7 @@ const Social = () => {
                   </li>
                   <li className="contact-icons">
                     <a
-                      href="https://www.instagram.com/19sajib"
+                      href="https://www.instagram.com/t_d_patel_2002"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-color contact-social-icons"
