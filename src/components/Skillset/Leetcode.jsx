@@ -3,9 +3,7 @@ import leetcodeImg from "../../assets/leetcode.png";
 import { Button } from "@mui/material";
 
 const Leetcode = () => {
-  console.log("component called");
   const redirectToLeetcodeProfile = () => {
-    console.log("function called");
     const leetcodeProfileUrl = "https://leetcode.com/Tarun_Vavadiya/";
     window.open(leetcodeProfileUrl, "_blank");
   };
