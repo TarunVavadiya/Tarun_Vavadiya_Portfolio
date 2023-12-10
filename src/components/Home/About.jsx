@@ -1,13 +1,13 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import LaptopImg from "../../assets/home-main.svg";
-import Tilt from "react-parallax-tilt";
+import { Col, Container, Row } from "react-bootstrap";
 import {
   AiFillGithub,
   AiFillInstagram,
   AiOutlineFacebook,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Tilt from "react-parallax-tilt";
+import tarunImg from "../../assets/Tarun_Vavadiya.jpg";
 
 const About = () => {
   return (
@@ -44,16 +44,40 @@ const About = () => {
               trends and emerging technologies. This pursuit not only imparts a
               wealth of new knowledge but also fuels my growth as a developer.
               During my leisure hours, you'll often spot me immersed in the
-              pages of captivating books{" "}
-              <span className="yellow">📚</span>, or dedicating
-              time to my fitness regimen at the gym{" "}
-              <span className="yellow">🏋️‍♂️</span>, or Hanging out
-              with friends <span className="yellow">🕺</span>.
+              pages of captivating books <span className="yellow">📚</span>, or
+              dedicating time to my fitness regimen at the gym{" "}
+              <span className="yellow">🏋️‍♂️</span>, or Hanging out with friends{" "}
+              <span className="yellow">🕺</span>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={LaptopImg} className="img-fluid" alt="avatar" />
+              <img
+                src={tarunImg}
+                className="img-fluid"
+                alt="avatar"
+                style={{
+                  width: "100%",
+                  maxWidth: "350px",
+                  height: "auto",
+                  borderRadius: "200px",
+                  paddingTop: window.innerWidth > 768 ? "50px" : "0",
+                  filter:
+                    window.innerWidth > 768
+                      ? "drop-shadow(5px 5px 100px #9f5af2) invert(5%)"
+                      : "none",
+                  transition: window.innerWidth > 768 ? "filter 0.3s" : "none",
+                }}
+                onMouseEnter={(e) => {
+                  e.target.style.filter = "none";
+                }}
+                onMouseLeave={(e) => {
+                  e.target.style.filter =
+                    window.innerWidth > 768
+                      ? "drop-shadow(5px 5px 100px #9f5af2) invert(5%)"
+                      : "none";
+                }}
+              />
             </Tilt>
           </Col>
         </Row>

@@ -1,18 +1,39 @@
 import React from "react";
-import ReactMarkdown from 'react-markdown'
-import { Row } from "react-bootstrap";
+import leetcodeImg from "../../assets/leetcode.png";
+import { Button } from "@mui/material";
 
 const Leetcode = () => {
+  console.log("component called");
+  const redirectToLeetcodeProfile = () => {
+    console.log("function called");
+    const leetcodeProfileUrl = "https://leetcode.com/Tarun_Vavadiya/";
+    window.open(leetcodeProfileUrl, "_blank");
+  };
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        <strong className="yellow">LeetCode</strong> Stat
+    <>
+      <h1
+        className="project-heading"
+        style={{
+          paddingBottom: "20px",
+          fontSize: "2em",
+        }}
+      >
+        <strong className="yellow">LeetCode</strong> Status
       </h1>
-      <ReactMarkdown>
-      ![LeetCode Stats](https://leetcard.jacoblin.cool/19sajib?theme=dark&font=Syne%20Mono&ext=heatmap)
-      </ReactMarkdown>
-    </Row>
+      <Button onClick={redirectToLeetcodeProfile}>
+        <img
+          src={leetcodeImg}
+          alt="Leetcode"
+          style={{
+            width: "100%",
+            maxWidth: "700px",
+            height: "auto",
+            cursor: "pointer",
+          }}
+        />
+      </Button>
+    </>
   );
-}
+};
 
 export default Leetcode;

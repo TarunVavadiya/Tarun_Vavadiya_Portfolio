@@ -36,7 +36,7 @@ const Social = () => {
                 target="_blank"
                 rel="noreferrer"
                 className="icon-colour  home-social-icons"
-                aria-label="twitter"
+                aria-label="facebook"
               >
                 <AiOutlineFacebook />
               </a>
