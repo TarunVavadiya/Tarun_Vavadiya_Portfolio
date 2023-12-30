@@ -1,11 +1,14 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
+  SiEclipseide,
   SiIntellijidea,
   SiPostman,
   SiPycharm,
   SiVisualstudiocode
 } from "react-icons/si";
+import { GiBeaver } from "react-icons/gi";
+
 
 const Toolstack = () => {
   return (
@@ -21,6 +24,12 @@ const Toolstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiEclipseide />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <GiBeaver />
       </Col>
     </Row>
   );

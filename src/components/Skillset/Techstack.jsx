@@ -5,28 +5,45 @@ import {
   DiJava,
   DiJavascript1,
   DiNodejs,
-  DiPostgresql,
   DiPython,
   DiReact
 } from "react-icons/di";
+import { FaGithub } from "react-icons/fa";
 import {
-  SiHtml5,
-  SiMaterialui,
-  SiMongodb,
-  SiRedux
+  SiApachemaven,
+  SiBootstrap,
+  SiExpress,
+  SiGitlab,
+  SiGradle,
+  SiHibernate,
+  SiHtml5, SiMaterialui, SiMongodb,
+  SiPostgresql,
+  SiRedux,
+  SiSpringboot,
+  SiSqlite,
 } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const Techstack = () => {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 />
+        <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSpringboot />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachemaven />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGradle />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHibernate />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
@@ -35,16 +52,13 @@ const Techstack = () => {
         <SiRedux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMongodb />
+        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
+        <TbBrandNextjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
@@ -52,8 +66,32 @@ const Techstack = () => {
       <Col xs={4} md={2} className="tech-icons">
         <DiDjango />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSqlite />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGitlab />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMaterialui />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBootstrap />
+      </Col>
     </Row>
   );
-}
+};
 
 export default Techstack;
