@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import tarunResume from "../../assets/Tarun_Vavadiya.pdf";
+import tarunResume from "../../assets/Tarun-Vavadiya.pdf";
 // import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 // import { CgGitFork } from "react-icons/cg";
