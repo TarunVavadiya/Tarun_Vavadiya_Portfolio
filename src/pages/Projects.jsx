@@ -1,10 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "../components/Projects/ProjectCard";
-import Particle from "../components/Particle";
-import project from "../assets/projects/project.jpeg";
+import { Col, Container, Row } from "react-bootstrap";
 import ecommerce from "../assets/projects/ecommerce.png";
+import project from "../assets/projects/project.jpeg";
 import workmanagement from "../assets/projects/workManagement.jpg";
+import uiBuilder from "../assets/projects/ui_builder.png";
+import commonFloor from "../assets/projects/commonFloor.png";
+import Particle from "../components/Particle";
+import ProjectCard from "../components/Projects/ProjectCard";
 
 const Projects = () => {
   return (
@@ -18,6 +20,28 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={uiBuilder}
+              isBlog={false}
+              isGit={false}
+              title="UI Builder"
+              description="Integ UI Builder is a cutting-edge solution that revolutionizes front-end application development with a no-code approach. The platform boasts powerful components, including customizable Grids and Tabs, tailored for enterprise applications."
+              demoLink="https://configurator-fraindz.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={commonFloor}
+              isBlog={false}
+              isGit={false}
+              title="Common Floor"
+              description="Common Floor is innovative online marketplace connecting buyers, tenants, and sellers in the real estate domain. Spearheaded the platform's development, enhancing its efficiency for users in their property search, buying, and renting endeavors."
+              demoLink="https://www.commonfloor.com/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={workmanagement}
@@ -35,7 +59,7 @@ const Projects = () => {
               isBlog={false}
               isGit={true}
               title="E‑Commerce Website"
-              description="This ecommerce website utilizes a REST API built with Python and Django, allowing for easy CRUD operations on user profiles, products and admin panel. The user interface is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products, includes a chart for statistics display. Stripe API is integrated to handle customer payments. The website uses sqlite as the database."
+              description="E-commerce Website is designed for efficient product management and includes a complete purchase process. The admin panel, accessible for CRUD on users and products, includes a chart for statistics display. Stripe API is integrated to handle customer payments. The website uses sqlite as the database."
               ghLink="https://github.com/TarunVavadiya/MedWeb---Online-Medical-Store/tree/master"
             />
           </Col>

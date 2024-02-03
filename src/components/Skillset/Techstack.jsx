@@ -1,28 +1,25 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiDjango,
   DiJava,
   DiJavascript1,
-  DiNodejs,
-  DiPython,
   DiReact
 } from "react-icons/di";
-import { FaGithub } from "react-icons/fa";
+import { FaAws, FaDocker, FaGithub } from "react-icons/fa";
 import {
   SiApachemaven,
   SiBootstrap,
-  SiExpress,
   SiGitlab,
   SiGradle,
   SiHibernate,
-  SiHtml5, SiMaterialui, SiMongodb,
+  SiHtml5,
+  SiMaterialui,
+  SiMongodb,
+  SiMysql,
   SiPostgresql,
   SiRedux,
-  SiSpringboot,
-  SiSqlite,
+  SiSpringboot
 } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
 
 const Techstack = () => {
   return (
@@ -34,6 +31,21 @@ const Techstack = () => {
         <SiSpringboot />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaAws />
+      </Col>{" "}
+      <Col xs={4} md={2} className="tech-icons">
+        <FaDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiApachemaven />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -43,34 +55,10 @@ const Techstack = () => {
         <SiHibernate />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiExpress />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandNextjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiDjango />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSqlite />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMongodb />
