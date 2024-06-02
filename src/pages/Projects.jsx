@@ -3,8 +3,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import ecommerce from "../assets/projects/ecommerce.png";
 import project from "../assets/projects/project.jpeg";
 import workmanagement from "../assets/projects/workManagement.jpg";
-import uiBuilder from "../assets/projects/ui_builder.png";
-import commonFloor from "../assets/projects/commonFloor.png";
+import financialAdvisor from "../assets/projects/financial_advisor.png";
+import integ from "../assets/projects/integ.jpg";
 import Particle from "../components/Particle";
 import ProjectCard from "../components/Projects/ProjectCard";
 
@@ -20,25 +20,25 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-        <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={uiBuilder}
+              imgPath={integ}
               isBlog={false}
               isGit={false}
-              title="UI Builder"
-              description="Integ UI Builder is a cutting-edge solution that revolutionizes front-end application development with a no-code approach. The platform boasts powerful components, including customizable Grids and Tabs, tailored for enterprise applications."
-              demoLink="https://configurator-fraindz.vercel.app/"
+              title="Integ"
+              description="Managed Integ, a CRM project. Handled ongoing improvements, bug fixes, and updates to ensure the tool remained user-friendly for better client relationships and smoother business operations. Collaborated with cross-functional teams to ensure Integ met client needs and exceeded expectations."
+              demoLink="https://www.commonfloor.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={commonFloor}
+              imgPath={financialAdvisor}
               isBlog={false}
               isGit={false}
-              title="Common Floor"
-              description="Common Floor is innovative online marketplace connecting buyers, tenants, and sellers in the real estate domain. Spearheaded the platform's development, enhancing its efficiency for users in their property search, buying, and renting endeavors."
-              demoLink="https://www.commonfloor.com/"
+              title="Financial Advisor"
+              description="Advisor Check is a handy app that connects to company systems, offering financial advice anytime, anywhere. It's super safe, keeping client data private, and easy to use for everyone, making financial planning a breeze."
+              demoLink="https://www.advisorcheck.com/"
             />
           </Col>
 
@@ -77,7 +77,7 @@ const Projects = () => {
         </Row>
       </Container>
     </Container>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
