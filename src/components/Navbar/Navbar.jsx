@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import tarunResume from "../../assets/Tarun_Vavadiya_CV.pdf";
+import tarunResume from "../../assets/Tarun_Vavadiya.pdf";
 // import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 // import { CgGitFork } from "react-icons/cg";
@@ -98,7 +98,7 @@ function NavBar() {
                 as={Link}
                 onClick={() => {
                   updateExpanded(false);
-                  const fileName = "Tarun-Vavadiya-CV.pdf";
+                  const fileName = "Tarun-Vavadiya.pdf";
                   const fileUrl = tarunResume;
 
                   const link = document.createElement("a");

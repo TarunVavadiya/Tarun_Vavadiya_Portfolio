@@ -1,10 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  DiJava,
-  DiJavascript1,
-  DiReact
-} from "react-icons/di";
+import { DiJava, DiJavascript1, DiReact } from "react-icons/di";
 import { FaAws, FaDocker, FaGithub } from "react-icons/fa";
 import {
   SiApachemaven,
@@ -13,12 +9,13 @@ import {
   SiGradle,
   SiHibernate,
   SiHtml5,
-  SiMaterialui,
+  SiJenkins,
+  SiMaterialdesign,
   SiMongodb,
   SiMysql,
   SiPostgresql,
   SiRedux,
-  SiSpringboot
+  SiSpringboot,
 } from "react-icons/si";
 
 const Techstack = () => {
@@ -29,6 +26,18 @@ const Techstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSpringboot />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachemaven />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGradle />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiHibernate />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiJenkins />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
@@ -46,15 +55,6 @@ const Techstack = () => {
         <FaDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiApachemaven />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGradle />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHibernate />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -68,15 +68,6 @@ const Techstack = () => {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGitlab />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHtml5 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiBootstrap />
       </Col>
     </Row>
   );
