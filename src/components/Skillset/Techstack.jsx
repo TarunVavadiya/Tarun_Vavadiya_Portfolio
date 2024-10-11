@@ -1,21 +1,20 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { DiJava, DiJavascript1, DiReact } from "react-icons/di";
-import { FaAws, FaDocker, FaGithub } from "react-icons/fa";
+import { DiDatabase, DiJava, DiJavascript1, DiReact } from "react-icons/di";
+import { FaDocker, FaGithub } from "react-icons/fa";
 import {
+  SiAmazons3,
   SiApachemaven,
-  SiBootstrap,
   SiGitlab,
   SiGradle,
   SiHibernate,
-  SiHtml5,
   SiJenkins,
-  SiMaterialdesign,
   SiMongodb,
   SiMysql,
   SiPostgresql,
   SiRedux,
   SiSpringboot,
+  SiTsnode,
 } from "react-icons/si";
 
 const Techstack = () => {
@@ -23,51 +22,93 @@ const Techstack = () => {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <DiJava />
+        <br />
+        <span style={{ fontSize: "30px" }}>Java</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSpringboot />
+        <br />
+        <span style={{ fontSize: "30px" }}>Spring Boot</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiApachemaven />
+        <br />
+        <span style={{ fontSize: "30px" }}>Maven</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGradle />
+        <br />
+        <span style={{ fontSize: "30px" }}>Gradle</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHibernate />
+        <br />
+        <span style={{ fontSize: "30px" }}>Hibernate</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiDatabase />
+        <br />
+        <span style={{ fontSize: "30px" }}>JDBC</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiJenkins />
+        <br />
+        <span style={{ fontSize: "30px" }}>Jenkins</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
+        <br />
+        <span style={{ fontSize: "30px" }}>React Js</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiRedux />
+        <br />
+        <span style={{ fontSize: "30px" }}>Redux</span>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTsnode />
+        <br />
+        <span style={{ fontSize: "30px" }}>Node Js</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+        <br />
+        <span style={{ fontSize: "30px" }}>javascript</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaAws />
-      </Col>{" "}
+        <SiAmazons3 />
+        <br />
+        <span style={{ fontSize: "30px" }}>Amazon s3</span>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaDocker />
+        <br />
+        <span style={{ fontSize: "30px" }}>Docker</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
+        <br />
+        <span style={{ fontSize: "30px" }}>PostgreSQL</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
+        <br />
+        <span style={{ fontSize: "30px" }}>MySQL</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMongodb />
+        <br />
+        <span style={{ fontSize: "30px" }}>MongoDB</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <FaGithub />
+        <br />
+        <span style={{ fontSize: "30px" }}>Github</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGitlab />
+        <br />
+        <span style={{ fontSize: "30px" }}>Gitlab</span>
       </Col>
     </Row>
   );
