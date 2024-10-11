@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { DiDatabase, DiJava, DiJavascript1, DiReact } from "react-icons/di";
-import { FaDocker, FaGithub } from "react-icons/fa";
+import { FaDocker, FaGithub, FaNode } from "react-icons/fa";
 import {
   SiAmazons3,
   SiApachemaven,
@@ -14,7 +14,6 @@ import {
   SiPostgresql,
   SiRedux,
   SiSpringboot,
-  SiTsnode,
 } from "react-icons/si";
 
 const Techstack = () => {
@@ -66,7 +65,7 @@ const Techstack = () => {
         <span style={{ fontSize: "30px" }}>Redux</span>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTsnode />
+        <FaNode />
         <br />
         <span style={{ fontSize: "30px" }}>Node Js</span>
       </Col>
