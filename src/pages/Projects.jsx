@@ -3,6 +3,8 @@ import { Col, Container, Row } from "react-bootstrap";
 import ecommerce from "../assets/projects/ecommerce.png";
 import project from "../assets/projects/project.jpeg";
 import workmanagement from "../assets/projects/workManagement.jpg";
+import phosis from "../assets/projects/phosis.jpeg";
+import des from "../assets/projects/des.png";
 import financialAdvisor from "../assets/projects/financial_advisor.png";
 import integ from "../assets/projects/integ.jpg";
 import Particle from "../components/Particle";
@@ -22,12 +24,11 @@ const Projects = () => {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={integ}
+              imgPath={phosis}
               isBlog={false}
               isGit={false}
-              title="Integ"
-              description="Managed Integ, a CRM project. Handled ongoing improvements, bug fixes, and updates to ensure the tool remained user-friendly for better client relationships and smoother business operations. Collaborated with cross-functional teams to ensure Integ met client needs and exceeded expectations."
-              demoLink="https://www.commonfloor.com/"
+              title="Phosis Fitness Camp"
+              description="Developed an online platform for Phosis Fitness Camp, enabling users to explore various fitness programs, register for classes, track their progress, and interact with trainers. The platform features user authentication, personalized workout plans, and community forums for members to share experiences and tips."
             />
           </Col>
 
@@ -37,8 +38,17 @@ const Projects = () => {
               isBlog={false}
               isGit={false}
               title="Financial Advisor"
-              description="Advisor Check is a handy app that connects to company systems, offering financial advice anytime, anywhere. It's super safe, keeping client data private, and easy to use for everyone, making financial planning a breeze."
-              demoLink="https://www.advisorcheck.com/"
+              description="Advisor Check is an innovative application that seamlessly integrates with company systems, providing financial advice anytime, anywhere. The app prioritizes security, ensuring client data remains confidential, and is designed for user-friendliness, simplifying financial planning for everyone."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={des}
+              isBlog={false}
+              isGit={false}
+              title="Decarbonized Electricity System"
+              description="Developed a sustainable electricity management system focusing on reducing carbon emissions through efficient energy distribution and monitoring. Implemented features for real-time data visualization, user-friendly interfaces, and integration with renewable energy sources, enhancing the overall efficiency and sustainability of the energy sector."
             />
           </Col>
 
@@ -50,6 +60,17 @@ const Projects = () => {
               title="Industry Plant Management"
               description="Plant Management website is a digital platform designed to assist individuals or organizations in effectively managing and monitoring various aspects of plants, such as crops, gardens, landscaping, or even industrial plants. It typically offer a range of features and tools to facilitate plant care, maintenance, and optimization."
               demoLink="https://workmanagement.onrender.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={integ}
+              isBlog={false}
+              isGit={false}
+              title="Integ"
+              description="Managed Integ, a CRM project. Handled ongoing improvements, bug fixes, and updates to ensure the tool remained user-friendly for better client relationships and smoother business operations. Collaborated with cross-functional teams to ensure Integ met client needs and exceeded expectations."
+              demoLink="https://www.commonfloor.com/"
             />
           </Col>
 
