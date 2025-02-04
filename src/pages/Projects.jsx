@@ -4,6 +4,7 @@ import ecommerce from "../assets/projects/ecommerce.png";
 import project from "../assets/projects/project.jpeg";
 import workmanagement from "../assets/projects/workManagement.jpg";
 import phosis from "../assets/projects/phosis.jpeg";
+import TIMS from "../assets/projects/TIMS.png";
 import des from "../assets/projects/des.png";
 import financialAdvisor from "../assets/projects/financial_advisor.png";
 import integ from "../assets/projects/integ.jpg";
@@ -22,6 +23,16 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={TIMS}
+              isBlog={false}
+              isGit={false}
+              title="TIMS (Training Information Management System)"
+              description="Training Information Management System is a web application to manage the training and its documentation for new recruit, current employee and contractual employee at a centralized location for different branches and departments. It is completely made for pharma based companies employee management."
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={phosis}
