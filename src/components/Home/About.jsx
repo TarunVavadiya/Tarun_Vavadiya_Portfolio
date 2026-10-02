@@ -7,7 +7,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
-import tarunImg from "../../assets/Tarun_Vavadiya.jpg";
+import tarunImg from "../../assets/Tarun_Vavadiya.png";
 
 const About = () => {
   return (
