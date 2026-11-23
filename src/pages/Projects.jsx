@@ -81,7 +81,6 @@ const Projects = () => {
               isGit={false}
               title="Integ"
               description="Managed Integ, a CRM project. Handled ongoing improvements, bug fixes, and updates to ensure the tool remained user-friendly for better client relationships and smoother business operations. Collaborated with cross-functional teams to ensure Integ met client needs and exceeded expectations."
-              demoLink="https://www.commonfloor.com/"
             />
           </Col>
 
@@ -103,7 +102,7 @@ const Projects = () => {
               isGit={true}
               title="Word Bucket"
               description="It is an user friendly Social-Media Application which is used to make connections all over the world. It can provide Chat boxes to chat with each others. It provides safety with user account like no can see your profile without following."
-              ghLink="https://github.com/19sajib/mern-blog-app"
+              ghLink="https://github.com/TarunVavadiya/Word_Bucket"
             />
           </Col>
         </Row>
